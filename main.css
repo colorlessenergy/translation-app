@@ -1,0 +1,53 @@
+body {
+  font-family: 'Crete Round', serif;
+  margin: 50px;
+}
+
+.hidden-languages {
+  display: none;
+}
+
+.form-group label {
+  cursor: pointer;
+}
+
+
+.language-container {
+  display: flex;
+  align-items: center;
+}
+
+.language-selector:hover .hidden-languages  {
+  display: block;
+}
+
+.language-selector {
+  margin-right: 40px;
+}
+
+/* hide current langauge in the drop down menu when it is selected */
+
+.hide-current-language {
+  display: none;
+}
+
+#words-for-single-language {
+  font-size: 50px;
+}
+
+#flag-image {
+  width: 100px;
+  height: 100px;
+}
+
+.hide-radio-button {
+  display: none;
+}
+
+#all-words {
+  display: flex;
+}
+
+#all-words div {
+  margin: 0 30px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>translation app</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="language-container">
+    <div class="language-selector">
+      <img id="flag-image" src="assets/english-flag.png" alt="english flag">
+    
+      <form class="hidden-languages">
+        <div class="form-group" id="english-form-group">
+          <label for="english">english</label>
+          <input class="hide-radio-button" type="radio" id="english" name="language" value="english" checked />
+        </div>
+        <div class="form-group" id="spanish-form-group">
+          <label for="spanish">spanish</label>
+          <input class="hide-radio-button" type="radio" id="spanish" name="language" value="spanish" />
+        </div>
+        <div class="form-group" id="italian-form-group">
+          <label for="italian">italian</label>
+          <input class="hide-radio-button" type="radio" id="italian" name="language" value="italian" />
+        </div>
+        <div class="form-group" id="portuguese-form-group">
+          <label for="portuguese">portuguese</label>
+          <input class="hide-radio-button" type="radio" id="portuguese" name="language" value="portuguese" />
+        </div>
+        <div class="form-group" id="french-form-group">
+          <label for="french">french</label>
+          <input class="hide-radio-button" type="radio" id="french" name="language" value="french" />
+        </div>
+        <div class="form-group" id="all-form-group">
+          <label for="all">all</label>
+          <input class="hide-radio-button" type="radio" id="all" name="language" value="all" />
+        </div>
+      </form>
+    </div>
+    
+    <div id="current-language"></div>
+  </div>
+  
+  
+
+  <div id="words-for-single-language"></div>
+
+  <div id="all-words"></div>
+</body>
+</html>
